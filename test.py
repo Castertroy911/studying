@@ -36,5 +36,5 @@ try:
     button = browser.find_element(By.ID, "solve")
     button.click()
 finally:
-    time.sleep(110)
+    time.sleep(10)
     browser.quit()
